@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #e0f7e9; /* Light green tea background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+h1 {
+    text-align: center;
+    color: #2e7d32; /* Dark green tea color */
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #2e7d32; /* Dark green tea color */
+}
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #a5d6a7; /* Light green tea border */
+    border-radius: 5px;
+    background-color: #e8f5e9; /* Very light green tea background */
+}
+button {
+    background-color: #66bb6a; /* Green tea button color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #43a047; /* Darker green tea button color */
+}
+#output {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e8f5e9; /* Very light green tea background */
+    border-radius: 5px;
+    color: #2e7d32; /* Dark green tea color */
+}

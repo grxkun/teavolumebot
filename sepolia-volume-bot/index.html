@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea Volume Bot</title>
+    <link rel="stylesheet" href="static/styles.css">
+</container">
+        <h1>Tea Volume Bot</h1>
+        <div class="form-group">
+            <label for="walletA">Wallet A (MetaMask):</label>
+            <button id="connectWalletA">Connect MetaMask</button>
+            <div id="walletAInfo"></div>
+        </div>
+        <div class="form-group">
+            <label for="walletBOption">Wallet B Option:</label>
+            <select id="walletBOption">
+                <option value="generate">Generate New Wallet</option>
+                <option value="import">Import Existing Wallet</option>
+            </select>
+        </div>
+        <div class="form-group" id="importWalletGroup" style="display: none;">
+            <label for="privateKey">Private Key:</label>
+            <input type="text" id="privateKey" placeholder="Enter Private Key">
+        </div>
+        <div class="form-group" id="generateWalletGroup" style="display: none;">
+            <button id="generateWalletB">Generate Wallet B</button>
+            <div id="walletBInfo"></div>
+        </div>
+        <div class="form-group">
+            <label for="cycleOption">Cycle Option:</label>
+            <select id="cycleOption">
+                <option value="times">Number of Cycles</option>
+                <option value="time">Duration in Hours</option>
+            </select>
+        </div>
+        <div class="form-group" id="timesGroup">
+            <label for="numCycles">Number of Cycles:</label>
+            <input type="number" id="numCycles" placeholder="Enter Number of Cycles">
+        </div>
+        <div class="form-group" id="timeGroup" style="display: none;">
+            <label for="duration">Duration in Hours:</label>
+            <input type="number" id="duration" placeholder="Enter Duration in Hours" max="24">
+        </div>
+        <div class="form-group">
+            <label for="swapToken">Token to Swap:</label>
+            <input type="text" id="swapToken" placeholder="Enter Token Contract Address">
+        </div>
+        <button id="startBot">Start Bot</button>
+        <div id="output"></div>
+    </div>
+    <script src="static/script.js"></script>
+</body>
+</html>
